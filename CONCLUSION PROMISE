@@ -1,0 +1,4 @@
+The code above defines three asynchronous functions, each using Promise to simulate time-consuming operations. 
+The functions walkCat, cleanRoom, and takeTrash each use setTimeout to wait for a few seconds before returning a result. 
+These functions are then chained together using the then method of Promise to print the result of each operation sequentially. 
+If any operation fails, an error message will be displayed using the catch method.
