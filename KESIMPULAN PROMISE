@@ -1,0 +1,5 @@
+Kode di tersebut mendefinisikan tiga fungsi asinkron yang masing-masing menggunakan Promise untuk mensimulasikan operasi yang memakan waktu. 
+Fungsi berjalanDenganKucing, bersihkanKamar, dan buangSampah masing-masing menggunakan setTimeout untuk menunggu beberapa detik sebelum mengembalikan hasil. 
+Fungsi-fungsi ini kemudian digabungkan menggunakan metode then dari Promise untuk mencetak hasil dari setiap operasi secara berurutan. 
+Jika salah satu operasi gagal, pesan error akan ditampilkan menggunakan metode catch.
+
